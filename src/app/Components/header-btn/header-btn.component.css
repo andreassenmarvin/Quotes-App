@@ -1,0 +1,20 @@
+#header-btn {
+    width: 200px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    margin: auto;
+    margin-top: 520px;
+    font-family:'Crimson Text',serif;
+    font-size: 19px;
+    border: 1px solid transparent;
+    transition: ease-in-out .3s;
+}
+
+#header-btn:hover {
+    background-color: transparent;
+    border: 1px solid white;
+}
