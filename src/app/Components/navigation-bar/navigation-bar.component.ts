@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -12,4 +12,13 @@ export class NavigationBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  @HostListener('window:scroll', ['$event']) onscroll() {
+    if (window.scrollY > 100) {
+      $('#navbar').addClass("nav")
+    }
+
+    else {
+      
+    }
+  }
 }

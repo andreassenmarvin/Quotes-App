@@ -1,0 +1,25 @@
+#navbar {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    z-index: 3;
+    transition: all ease-in-out .4s;
+}
+
+.navbar-scroll {
+    background-color: white;
+    
+}
+
+#navbar-brand {
+    width: 40px;
+    margin: 0 0 0 40px;
+    cursor: pointer;
+}
+
+#nav-title {
+    margin: auto;
+    color: red;
+    font-weight: bold;
+}
