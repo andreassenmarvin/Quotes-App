@@ -1,3 +1,14 @@
 .header-card {
-    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 380px 0 0 100px;
+    font-family: crimson text serif;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 7px black;
 }
