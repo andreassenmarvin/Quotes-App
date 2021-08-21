@@ -1,16 +1,15 @@
-# QUOTES-APP
+# ![Webapp logo](src/assets/logo2.jpg)      QUOTES-APP
 #### This is a web-app that allows the user to enter a quote and the author and it proceeds to generate it allowing other users to either vote or downvote the quote.
 
 #### This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
 #### By **Marvin Macharia**
 ## Description
-![Website image](/Assets/README/s1.png)
-![Website image](/Assets/README/s2.png)
-![Website image](/Assets/README/s3.png)
-![Website image](/Assets/README/s4.png)
-![Website image](/Assets/README/s5.png)
-![Website image](/
+![Webapp image](/Assets/README/s1.png)
+![Webapp image](/Assets/README/s2.png)
+![Webapp image](/Assets/README/s3.png)
+![Webapp image](/Assets/README/s4.png)
+![Webapp image](/Assets/README/s5.png)
 ## Setup/Installation Requirements
 * Fork/Clone the repository
 ```
@@ -55,6 +54,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Support and contact details
 #### Incase of any contributions,query or issues,you can reach me through the email below:
 **machariamarvin625@gmail.com**
-### License
-**MIT**
-Copyright (c) 2021 **MARVIN MACHARIA**
+### License 
+#### This project is licensed under the [MIT License](https://github.com/marvinandreassen/Quotes-app/blob/master/LICENSE)
