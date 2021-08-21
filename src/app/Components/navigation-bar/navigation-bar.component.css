@@ -1,15 +1,19 @@
-#navbar {
+.navbar {
     position: sticky;
     display: flex;
     align-items: center;
-    background-color: transparent;
+    background-color: transparent !important;
     z-index: 3;
-    transition: all ease-in-out .4s;
+    transition: all ease-in-out .3s;
 }
 
-.navbar-scroll {
-    background-color: white;
-    
+.scroll {
+    position: fixed;
+    background-color: white !important;
+    color: black;
+    width: 100%;
+    transition: all ease-in-out .3s;
+    top: 0;
 }
 
 #navbar-brand {
@@ -18,8 +22,32 @@
     cursor: pointer;
 }
 
-#nav-title {
+.brand1 {
+    width: 40px;
+    margin: 0 0 0 40px;
+    cursor: pointer;
+}
+
+.brand2 {
+    display: none;
+    width: 50px;
+    margin: 0 0 0 40px;
+}
+
+.nav-title {
     margin: auto;
     color: red;
     font-weight: bold;
+}
+
+.black {
+    color: black;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
 }
