@@ -1,4 +1,4 @@
-# ![Webapp logo](src/assets/readme.png)      QUOTES-APP
+# ![Webapp logo](src/assets/readme.png)     QUOTES-APP
 #### This is a web-app that allows the user to enter a quote and the author and it proceeds to generate it allowing other users to either vote or downvote the quote.
 
 #### This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
