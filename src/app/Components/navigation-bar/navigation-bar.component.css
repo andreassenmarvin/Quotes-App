@@ -1,54 +1,92 @@
 .navbar {
-    position: sticky;
-    display: flex;
-    align-items: center;
-    background-color: transparent !important;
-    z-index: 3;
-    transition: all ease-in-out .3s;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  background-color: transparent !important;
+  z-index: 3;
+  transition: all ease-in-out .3s;
 }
 
 .scroll {
-    position: fixed;
-    background-color: white !important;
-    color: black;
-    width: 100%;
-    transition: all ease-in-out .3s;
-    top: 0;
+  position: fixed;
+  background-color: white !important;
+  color: black;
+  width: 100%;
+  transition: all ease-in-out .3s;
+  top: 0;
 }
 
 #navbar-brand {
-    width: 40px;
-    margin: 10px 0 0 40px;
-    cursor: pointer;
+  width: 40px;
+  margin: 10px 0 0 40px;
+  cursor: pointer;
 }
 
 .brand1 {
-    width: 40px;
-    margin: 0 0 0 40px;
-    cursor: pointer;
+  width: 40px;
+  margin: 0 0 0 40px;
+  cursor: pointer;
 }
 
 .brand2 {
-    display: none;
-    width: 50px;
-    margin: 0 0 0 40px;
+  display: none;
+  width: 50px;
+  margin: 0 0 0 40px;
 }
 
 .nav-title {
-    margin: auto;
-    margin-top: 10px;
-    color: red;
-    font-weight: bold;
+  margin: auto;
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
 }
 
 .black {
-    color: black;
+  color: black;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 .show {
-    display: flex;
+  display: flex;
+}
+
+.nav-search {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 0 20px 0 0px;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.nav-search-hide {
+  display: none;
+}
+
+.search-black-hide {
+  display: none;
+  color: black;
+}
+
+.search-black-show {
+  display: flex;
+  align-items: center;
+  margin: 0 20px 0 40px;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.search-input {
+  position: absolute;
+  right: 50px;
+  display: none;
+}
+
+.search-input-show {
+  position: absolute;
+  right: 50px;
+  display: flex;
 }

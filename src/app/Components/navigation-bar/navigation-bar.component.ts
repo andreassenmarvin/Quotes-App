@@ -16,14 +16,19 @@ export class NavigationBarComponent implements OnInit {
   titleblack: boolean = false;
   logo1hide: boolean = false;
   logo2show: boolean = false;
+  searchscroll: boolean = false;
+  searchblackscroll: boolean = false;
+  searchclick: boolean = false;
 
-  @HostListener('window:scroll', ['$event']) 
+  @HostListener('window:scroll', ['$event'])
   onscroll() {
     if (window.scrollY > 100) {
       this.navbarscroll = true;
       this.titleblack = true;
       this.logo1hide = true;
       this.logo2show = true;
+      this.searchscroll = true;
+      this.searchblackscroll = true;
     }
 
     else {
@@ -31,6 +36,12 @@ export class NavigationBarComponent implements OnInit {
       this.titleblack = false;
       this.logo1hide = false;
       this.logo2show = false;
+      this.searchscroll = false;
+      this.searchblackscroll = false;
     }
+  }
+
+  searchInput() {
+    this.searchclick = true;
   }
 }
