@@ -7,7 +7,6 @@ import { HeaderComponent } from './Components/header-bg/header.component';
 import { NavigationBarComponent } from './Components/navigation-bar/navigation-bar.component';
 import { HeaderBtnComponent } from './Components/header-btn/header-btn.component';
 import { HeaderCardComponent } from './Components/header-card/header-card.component';
-import { AboutBgComponent } from './Components/about-bg/about-bg.component';
 import { AboutBodyComponent } from './Components/about-body/about-body.component';
 
 
@@ -18,7 +17,6 @@ import { AboutBodyComponent } from './Components/about-body/about-body.component
     NavigationBarComponent,
     HeaderBtnComponent,
     HeaderCardComponent,
-    AboutBgComponent,
     AboutBodyComponent
   ],
   imports: [

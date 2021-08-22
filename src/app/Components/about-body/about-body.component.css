@@ -1,3 +1,27 @@
 .about-title {
-    
+    color: white;
+    text-align: center;
+}
+
+.about-title-underline {
+    width: 130px;
+    height: 2px;
+    margin: auto;
+    background-color: white;
+}
+
+.about-paragraph {
+    color: white;
+    width: 930px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 0.1em;
+}
+
+.poe-img {
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: -150px;
 }

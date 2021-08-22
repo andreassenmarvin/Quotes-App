@@ -1,11 +1,11 @@
-#header-btn {
+.header-btn {
   width: 200px;
   height: 55px;
+  background-color: red;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
-  color: white;
   margin: auto;
   margin-top: 60px;
   font-family: 'Crimson Text', serif;
@@ -14,7 +14,8 @@
   transition: ease-in-out .3s;
 }
 
-#header-btn:hover {
+.header-btn:hover {
   background-color: transparent;
   border: 1px solid white;
 }
+
