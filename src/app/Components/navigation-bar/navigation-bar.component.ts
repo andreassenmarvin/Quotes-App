@@ -22,7 +22,7 @@ export class NavigationBarComponent implements OnInit {
 
   @HostListener('window:scroll', ['$event'])
   onscroll() {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 60) {
       this.navbarscroll = true;
       this.titleblack = true;
       this.logo1hide = true;
