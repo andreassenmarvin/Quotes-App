@@ -5,4 +5,5 @@
   height: 100vh;
   z-index: -999;
   filter: blur(1px);
+  border-bottom: 1px solid white;
 }
