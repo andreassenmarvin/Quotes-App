@@ -10,6 +10,7 @@ import { HeaderCardComponent } from './Components/header-card/header-card.compon
 import { AboutBodyComponent } from './Components/about-body/about-body.component';
 import { QuotesComponent } from './Components/quotes/quotes.component';
 import { FooterComponent } from './Components/footer/footer.component';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FooterComponent } from './Components/footer/footer.component';
     HeaderCardComponent,
     AboutBodyComponent,
     QuotesComponent,
-    FooterComponent
+    FooterComponent,
+    QuoteFormComponent
   ],
   imports: [
     BrowserModule,
