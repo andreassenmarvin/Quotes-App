@@ -28,7 +28,7 @@ export class NavigationBarComponent implements OnInit {
       this.logo1hide = true;
       this.logo2show = true;
       this.searchscroll = true;
-      this.searchblackscroll = true;
+      this.searchblackscroll = true;;
     }
 
     else {

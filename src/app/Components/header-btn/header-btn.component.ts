@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header-btn',
@@ -12,4 +12,18 @@ export class HeaderBtnComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  btnscroll: boolean = false;
+
+  @HostListener('window:scroll', ['$event'])
+  onscroll() {
+    if (window.scrollY > 600) {
+      this.btnscroll = true;
+    }
+
+
+    else {
+      this.btnscroll = false;
+    }
+  }
 }

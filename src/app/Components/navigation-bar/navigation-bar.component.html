@@ -5,6 +5,7 @@
       [ngClass]="logo2show?'show':'brand2'"></a>
   <h1 class="nav-title" [ngClass]="titleblack?'black':'nav-title'">Stellar Quotes</h1>
   <i class="bi bi-search nav-search" [ngClass]="searchscroll? 'nav-search-hide':'nav-search'" (click)="onClick()"></i>
-  <i class="bi bi-search search-black-hide" [ngClass]="searchblackscroll? 'search-black-show':'search-black-hide'" (click)="onClick()"></i>
+  <i class="bi bi-search search-black-hide" [ngClass]="searchblackscroll? 'search-black-show':'search-black-hide'"
+    (click)="onClick()"></i>
   <input type="search" name="search" class="form-control-s search-input" id="search-input" *ngIf="showInput">
 </nav>

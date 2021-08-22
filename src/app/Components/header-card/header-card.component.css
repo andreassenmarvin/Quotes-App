@@ -11,4 +11,5 @@
   font-size: 20px;
   text-align: center;
   box-shadow: 2px 2px 7px black;
+  z-index: 2;
 }

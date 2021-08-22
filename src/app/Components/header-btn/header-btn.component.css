@@ -12,6 +12,12 @@
   font-size: 19px;
   border: 1px solid transparent;
   transition: ease-in-out .3s;
+  z-index: 3;
+}
+
+.header-btn-fixed {
+  position: fixed;
+  margin-left: 20px;
 }
 
 .header-btn:hover {
@@ -19,3 +25,11 @@
   border: 1px solid white;
 }
 
+.header-bottom-underline {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  margin-top: 80px;
+  background-color: white;
+  opacity: 0.3;
+}

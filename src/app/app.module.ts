@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -9,6 +9,7 @@ import { HeaderBtnComponent } from './Components/header-btn/header-btn.component
 import { HeaderCardComponent } from './Components/header-card/header-card.component';
 import { AboutBodyComponent } from './Components/about-body/about-body.component';
 import { QuotesComponent } from './Components/quotes/quotes.component';
+import { FooterComponent } from './Components/footer/footer.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { QuotesComponent } from './Components/quotes/quotes.component';
     HeaderBtnComponent,
     HeaderCardComponent,
     AboutBodyComponent,
-    QuotesComponent
+    QuotesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
