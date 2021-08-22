@@ -8,6 +8,7 @@ import { NavigationBarComponent } from './Components/navigation-bar/navigation-b
 import { HeaderBtnComponent } from './Components/header-btn/header-btn.component';
 import { HeaderCardComponent } from './Components/header-card/header-card.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

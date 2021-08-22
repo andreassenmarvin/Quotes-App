@@ -18,7 +18,7 @@ export class NavigationBarComponent implements OnInit {
   logo2show: boolean = false;
   searchscroll: boolean = false;
   searchblackscroll: boolean = false;
-  searchclick: boolean = false;
+  showInput: boolean = false;
 
   @HostListener('window:scroll', ['$event'])
   onscroll() {
@@ -41,7 +41,8 @@ export class NavigationBarComponent implements OnInit {
     }
   }
 
-  searchInput() {
-    this.searchclick = true;
+  onClick() {
+    this.showInput = true;
   }
 }
+

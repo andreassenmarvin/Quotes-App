@@ -82,11 +82,6 @@
 .search-input {
   position: absolute;
   right: 50px;
-  display: none;
-}
-
-.search-input-show {
-  position: absolute;
-  right: 50px;
-  display: flex;
+  outline: none;
+  transition: ease-in-out .4s;
 }
