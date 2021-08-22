@@ -15,14 +15,19 @@
   z-index: 3;
 }
 
+.header-btn:hover {
+  background-color: rgb(185, 7, 7);
+}
+
 .header-btn-fixed {
   position: fixed;
   margin-left: 20px;
+  opacity: 0.5;
 }
 
-.header-btn:hover {
-  background-color: transparent;
-  border: 1px solid white;
+.header-btn-fixed:hover {
+  opacity: 1;
+  background-color: red;
 }
 
 .header-bottom-underline {
