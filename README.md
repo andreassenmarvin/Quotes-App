@@ -55,7 +55,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * JavaScript
 * Typescript
 ## Support and contact details
-#### Incase of any contributions,query or issues,you can reach me through the email below:
+Incase of any contributions,query or issues,you can reach me through the email below:
 **machariamarvin625@gmail.com**
 ### License 
-#### This project is licensed under the [MIT License](https://github.com/marvinandreassen/Quotes-app/blob/master/LICENSE)
+This project is licensed under the [MIT License](https://github.com/marvinandreassen/Quotes-app/blob/master/LICENSE)
