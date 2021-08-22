@@ -8,6 +8,7 @@ import { NavigationBarComponent } from './Components/navigation-bar/navigation-b
 import { HeaderBtnComponent } from './Components/header-btn/header-btn.component';
 import { HeaderCardComponent } from './Components/header-card/header-card.component';
 import { AboutBodyComponent } from './Components/about-body/about-body.component';
+import { QuotesComponent } from './quotes/quotes.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AboutBodyComponent } from './Components/about-body/about-body.component
     NavigationBarComponent,
     HeaderBtnComponent,
     HeaderCardComponent,
-    AboutBodyComponent
+    AboutBodyComponent,
+    QuotesComponent
   ],
   imports: [
     BrowserModule,
