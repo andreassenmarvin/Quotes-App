@@ -1,0 +1,61 @@
+.quotes-form {
+  position: static;
+  width: 30%;
+  height: auto;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  margin: auto;
+  margin-top: -400px;
+  z-index: 4;
+  padding: 20px;
+}
+
+input {
+  font-family: 'Crimson Text', serif;
+  font-size: 15px;
+  padding: 10px;
+}
+
+#input-author {
+  width: 410px;
+  height: 40px;
+}
+
+#input-creator {
+  width: 410px;
+  height: 40px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#quote-input {
+  width: 410px;
+  height: 100px;
+  font-family: 'Crimson Text', serif;
+  font-size: 15px;
+  padding: 10px;
+}
+
+#quote-input:focus {
+  outline: none;
+}
+
+#submit-quote {
+  width: 130px;
+  height: 40px;
+  font-family: 'Crimson Text', serif;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  border: 1px solid transparent;
+  transition: ease-in-out .3s;
+}
+
+#submit-quote:hover {
+  background-color: rgb(185, 7, 7);
+}
