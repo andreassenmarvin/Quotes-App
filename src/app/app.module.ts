@@ -7,6 +7,7 @@ import { HeaderComponent } from './Components/header-bg/header.component';
 import { NavigationBarComponent } from './Components/navigation-bar/navigation-bar.component';
 import { HeaderBtnComponent } from './Components/header-btn/header-btn.component';
 import { HeaderCardComponent } from './Components/header-card/header-card.component';
+import { AboutBgComponent } from './Components/about-bg/about-bg.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { HeaderCardComponent } from './Components/header-card/header-card.compon
     HeaderComponent,
     NavigationBarComponent,
     HeaderBtnComponent,
-    HeaderCardComponent
+    HeaderCardComponent,
+    AboutBgComponent
   ],
   imports: [
     BrowserModule,
