@@ -11,6 +11,7 @@ import { AboutBodyComponent } from './Components/about-body/about-body.component
 import { QuotesComponent } from './Components/quotes/quotes.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { QuoteFormComponent } from './Components/quote-form/quote-form.component';
+import { DateCountPipe } from './Pipes/date-count.pipe';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { QuoteFormComponent } from './Components/quote-form/quote-form.component
     AboutBodyComponent,
     QuotesComponent,
     FooterComponent,
-    QuoteFormComponent
+    QuoteFormComponent,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,

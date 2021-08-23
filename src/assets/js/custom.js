@@ -1,8 +1,8 @@
 $(function () {
-  $(".nav-search").click(function(){
+  $(".nav-search").click(function () {
     $("#search-input").focus();
   })
-  $(".search-black-hide").click(function(){
+  $(".search-black-hide").click(function () {
     $("#search-input").focus();
   })
 
@@ -20,7 +20,7 @@ $(function () {
     $(".header-btn").fadeIn();
   })
 
-  $(".form-overlay").click(function(){
+  $(".form-overlay").click(function () {
     $("#quotes-form").fadeOut();
     $(".form-overlay").fadeOut();
     $(".header-btn").fadeIn();
@@ -120,6 +120,10 @@ $(function () {
 
   $("#q24-more").click(function () {
     $("#q24-delete").slideToggle();
+  })
+
+  $("#extrasMore").click(function () {
+    $("#extrasDelete").slideToggle();
   })
 
   $("#q1-delete").click(function () {
@@ -313,4 +317,53 @@ $(function () {
       $("#quote24").fadeOut();
     }
   });
+
+  $("#extrasDelete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#extraQuotes").fadeOut();
+    }
+  });
+
+
+  $(".quotes-form").submit(function (event) {
+    event.preventDefault();
+    var quote = document.getElementById("quote-input").value;
+    var author = document.getElementById("input-author").value;
+    var creator = document.getElementById("input-creator").value;
+    $(".add-quotes").append('<div class="card quotes-card" id="extraQuotes">' +
+      '<div class="card-body">' +
+      '<div class="card-text">' +
+      '<blockquote>' +
+      '<cite>' +
+      '<p class="quote-plus">' +
+      '<q>' +
+      '</q>' +
+      '</p>' +
+      '</cite>' +
+      '</blockquote>' +
+      '<p class="author-plus"></p>' +
+      '<p class="creator-plus">Created by:</p>' +
+      '</div>' +
+      '<div class="quote-icons card-link">' +
+      '<i class="bi bi-hand-thumbs-up like"></i>' +
+      '<i class="bi bi-hand-thumbs-down unlike"></i>' +
+      '</div>' +
+      '<div class="quote-btns">' +
+      '<button type="button" class="quotes-btn more" id=extrasMore">More</button>' +
+      '<button type="button" class="quotes-btn delete" id=extrasDelete">Delete quote</button>' +
+      '</div>' +
+      '</div>' +
+      '</div>'
+    );
+
+    $("#quotes-form").fadeOut();
+    $(".form-overlay").fadeOut();
+    $(".header-btn").fadeIn();
+    $(".quote-plus").text(quote);
+    $(".author-plus").text(author);
+    $(".creator-plus").append(creator);
+    $(".quotes-form").trigger("reset");
+  })
 })

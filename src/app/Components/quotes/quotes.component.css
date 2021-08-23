@@ -68,6 +68,20 @@
   background: rgba(17, 17, 17, 0.6);
 }
 
+.add-quotes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+#quote-plus {
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
