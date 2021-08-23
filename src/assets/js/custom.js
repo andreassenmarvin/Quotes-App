@@ -108,4 +108,196 @@ $(function () {
   $("#q24-more").click(function () {
     $("#q24-delete").slideToggle();
   })
+
+  $("#q1-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote1").fadeOut();
+    }
+  });
+
+  $("#q2-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote2").fadeOut();
+    }
+  });
+
+  $("#q3-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote3").fadeOut();
+    }
+  });
+
+  $("#q4-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote4").fadeOut();
+    }
+  });
+
+  $("#q5-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote5").fadeOut();
+    }
+  });
+
+  $("#q6-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote6").fadeOut();
+    }
+  });
+
+  $("#q7-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote7").fadeOut();
+    }
+  });
+
+  $("#q8-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote8").fadeOut();
+    }
+  });
+
+  $("#q9-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote9").fadeOut();
+    }
+  });
+
+  $("#q10-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote10").fadeOut();
+    }
+  });
+
+  $("#q11-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote11").fadeOut();
+    }
+  });
+
+  $("#q12-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote12").fadeOut();
+    }
+  });
+
+  $("#q13-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote13").fadeOut();
+    }
+  });
+
+  $("#q14-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote14").fadeOut();
+    }
+  });
+
+  $("#q15-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote15").fadeOut();
+    }
+  });
+
+  $("#q16-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote16").fadeOut();
+    }
+  });
+
+  $("#q17-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote17").fadeOut();
+    }
+  });
+
+  $("#q18-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote18").fadeOut();
+    }
+  });
+
+  $("#q19-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote19").fadeOut();
+    }
+  });
+
+  $("#q20-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote20").fadeOut();
+    }
+  });
+
+  $("#q21-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote21").fadeOut();
+    }
+  });
+
+  $("#q22-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote22").fadeOut();
+    }
+  });
+
+  $("#q23-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote23").fadeOut();
+    }
+  });
+
+  $("#q24-delete").click(function () {
+    var deletedQUote = confirm("Are you sure you want to delete this quote?");
+
+    if (deletedQUote) {
+      $("#quote24").fadeOut();
+    }
+  });
 })
