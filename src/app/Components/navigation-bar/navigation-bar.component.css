@@ -1,4 +1,5 @@
 .navbar {
+  width: 100%;
   position: sticky;
   display: flex;
   align-items: center;
@@ -66,6 +67,14 @@
   display: none;
 }
 
+.search-btn {
+  display: flex;
+  align-items: center;
+  margin: 0 -10px 0 0px;
+  background-color: transparent;
+  border: none;
+}
+
 .search-black-hide {
   display: none;
   color: black;
@@ -84,4 +93,229 @@
   right: 50px;
   outline: none;
   transition: ease-in-out .4s;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar {
+    width: 100%;
+    height: 45px;
+  }
+
+  #navbar-brand {
+    width: 23px;
+    margin: 0 0 0 25px;
+  }
+
+  .brand2 {
+    width: 25px;
+    margin: 0 0 0 15px;
+  }
+
+  .nav-title {
+    margin-top: 4px;
+    font-size: 22px;
+  }
+
+  .nav-search {
+    font-size: 17px;
+    margin: 0 10px 0 0px;
+  }
+
+  .search-btn {
+    margin: 0 -7px 0 0px;
+  }
+
+  .search-black-show {
+    display: flex;
+    align-items: center;
+    margin: 0 14px 0 0;
+    font-size: 16px;
+  }
+
+  .search-input {
+    right: 40px;
+    width: 110px;
+    height: 20px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar {
+    width: 100%;
+    height: 45px;
+  }
+
+  #navbar-brand {
+    width: 23px;
+    margin: 0 0 0 25px;
+  }
+
+  .brand2 {
+    width: 25px;
+    margin: 0 0 0 15px;
+  }
+
+  .nav-title {
+    margin-top: 4px;
+    font-size: 22px;
+  }
+
+  .nav-search {
+    font-size: 17px;
+    margin: 0 1px 0 0px;
+  }
+
+  .search-btn {
+    margin: 0 0px 0 0px;
+  }
+
+  .search-black-show {
+    display: flex;
+    align-items: center;
+    margin: 0 14px 0 0;
+    font-size: 16px;
+  }
+
+  .search-input {
+    right: 40px;
+    width: 120px;
+    height: 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar {
+    width: 100%;
+  }
+
+  #navbar-brand {
+    width: 34px;
+    margin: 8px 0 0 25px;
+  }
+
+  .brand2 {
+    width: 38px;
+    margin: 0 0 0 20px;
+  }
+
+  .nav-title {
+    margin-top: 8px;
+    font-size: 30px;
+  }
+
+  .nav-search {
+    font-size: 19px;
+    margin: 0 4px 0 0px;
+  }
+
+  .search-btn {
+    margin: 0 0px 0 0px;
+  }
+
+  .search-black-show {
+    display: flex;
+    align-items: center;
+    margin: 0 12px 0 0;
+    font-size: 19px;
+  }
+
+  .search-input {
+    right: 45px;
+    width: 170px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar {
+    width: 100%;
+  }
+
+  #navbar-brand {
+    width: 40px;
+    margin: 9px 0 0 30px;
+  }
+
+  .brand2 {
+    width: 45px;
+    margin: 0 0 0 30px;
+  }
+
+  .nav-title {
+    margin-top: 9px;
+    font-size: 37px;
+  }
+
+  .nav-search {
+    font-size: 21px;
+    margin: 0 7px 0 0px;
+  }
+
+  .search-btn {
+    margin: 0
+  }
+
+  .search-black-show {
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 30px;
+    font-size: 21px;
+  }
+
+  .search-input {
+    right: 50px;
+    width: 200px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .navbar {
+    width: 100%;
+  }
+
+  #navbar-brand {
+    width: 40px;
+    margin: 10px 0 0 40px;
+  }
+
+  .brand1 {
+    width: 40px;
+    margin: 0 0 0 40px;
+  }
+
+  .brand2 {
+    width: 50px;
+    margin: 0 0 0 40px;
+  }
+
+  .nav-title {
+    margin-top: 10px;
+  }
+
+  .nav-search {
+    font-size: 23px;
+    margin: 0 1px 0 0px;
+  }
+
+  .search-btn {
+    margin: 0 0px 0 5px;
+  }
+
+  .search-black-show {
+    display: flex;
+    align-items: center;
+    margin: 0 15px 0 40px;
+    font-size: 23px;
+  }
+
+  .search-input {
+    right: 50px;
+  }
+
 }

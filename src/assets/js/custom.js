@@ -1,4 +1,11 @@
 $(function () {
+  $(".nav-search").click(function(){
+    $("#search-input").focus();
+  })
+  $(".search-black-hide").click(function(){
+    $("#search-input").focus();
+  })
+
   $("#quotes-form").hide();
   $(".form-overlay").hide();
   $("#header-btn").click(function () {

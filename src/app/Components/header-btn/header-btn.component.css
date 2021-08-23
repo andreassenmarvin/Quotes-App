@@ -38,3 +38,135 @@
   background-color: white;
   opacity: 0.3;
 }
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  body {
+    width: 100%;
+  }
+
+  .header-btn {
+    width: 70px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 9px;
+  }
+
+  .header-btn-fixed {
+    margin-left: 10px;
+  }
+
+  .header-bottom-underline {
+    height: 2px;
+    margin-top: 10px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    width: 100%;
+  }
+
+  .header-btn {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 11px;
+  }
+
+  .header-btn-fixed {
+    margin-left: 20px;
+  }
+
+  .header-bottom-underline {
+    height: 2px;
+    margin-top: 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    width: 100%;
+  }
+
+  .header-btn {
+    width: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 15px;
+  }
+
+  .header-btn-fixed {
+    margin-left: 20px;
+  }
+
+  .header-bottom-underline {
+    height: 2px;
+    margin-top: 30px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    width: 100%;
+  }
+
+  .header-btn {
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 18px;
+  }
+
+  .header-btn-fixed {
+    margin-left: 20px;
+  }
+
+  .header-bottom-underline {
+    height: 4px;
+    margin-top: 70px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    width: 100%;
+  }
+
+  .header-btn {
+    width: 200px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 19px;
+  }
+
+  .header-btn-fixed {
+    margin-left: 20px;
+  }
+
+  .header-bottom-underline {
+    height: 4px;
+    margin-top: 80px;
+  }
+}
