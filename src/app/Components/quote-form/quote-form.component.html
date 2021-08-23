@@ -1,17 +1,20 @@
-<div style="position: fixed;width: 100%;;" id="quotes-form">
+<div style="position: fixed;width: 100%;z-index: 5;" id="quotes-form">
   <form class="quotes-form">
+    <i class="bi bi-x form-cancel"></i>
     <div class="form-group">
-      <label for="author">*Enter name of author</label>
+      <label for="author" class="form-label">*Enter name of author</label>
       <input type="text" name="author" placeholder="Author..." id="input-author">
     </div>
     <div class="form-group">
-      <label for="author">*Enter your name</label>
+      <label for="author" class="form-label">*Enter your name</label>
       <input type="text" name="author" placeholder="Created by..."  id="input-creator">
     </div>
     <div class="form-group">
-      <label for="quote">*Enter quote</label>
+      <label for="quote" class="form-label">*Enter quote</label>
       <textarea name="quote" placeholder="Enter quote..." id="quote-input"></textarea>
     </div>
     <button type="submit" id="submit-quote">Add quote</button>
   </form>
 </div>
+
+<div class="form-overlay"></div>
