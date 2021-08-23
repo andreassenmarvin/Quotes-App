@@ -366,4 +366,8 @@ $(function () {
     $(".creator-plus").append(creator);
     $(".quotes-form").trigger("reset");
   })
+
+  $(window).load(function() {
+    $(".quotes-form").hide();
+  })
 })
