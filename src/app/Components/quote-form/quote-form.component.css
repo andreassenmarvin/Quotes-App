@@ -9,6 +9,7 @@
   margin-top: -400px;
   z-index: 4;
   padding: 20px;
+  display: none;
 }
 
 input {

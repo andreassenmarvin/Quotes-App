@@ -32,4 +32,5 @@ import { QuoteFormComponent } from './Components/quote-form/quote-form.component
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+ }

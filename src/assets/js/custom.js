@@ -1,0 +1,4 @@
+$(function (){
+  $("#quotes-form").hide()
+})
+
