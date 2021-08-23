@@ -11,7 +11,4 @@ export class QuotesComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  url = "assets/js/modelsupport.js";
-
 }
