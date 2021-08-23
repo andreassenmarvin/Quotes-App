@@ -13,6 +13,12 @@ $(function () {
     $(".header-btn").fadeIn();
   })
 
+  $(".form-overlay").click(function(){
+    $("#quotes-form").fadeOut();
+    $(".form-overlay").fadeOut();
+    $(".header-btn").fadeIn();
+  })
+
   $("#q1-more").click(function () {
     $("#q1-delete").slideToggle();
   })

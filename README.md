@@ -8,11 +8,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 #### By **Marvin Macharia**
 ## Description
-![Webapp image](/Assets/README/s1.png)
-![Webapp image](/Assets/README/s2.png)
-![Webapp image](/Assets/README/s3.png)
-![Webapp image](/Assets/README/s4.png)
-![Webapp image](/Assets/README/s5.png)
+![Webapp image](/src/assets/README/s1.png)
+![Webapp image](/src/assets/README/s2.png)
+![Webapp image](/src/assets/README/s3.png)
+![Webapp image](/src/assets/README/s4.png)
+![Webapp image](/src/assets/README/s5.png)
+![Webapp image](/src/assets/README/s6.png)
+![Webapp image](/src/assets/README/s7.png)
 ## Setup/Installation Requirements
 * Fork/Clone the repository
 ```
