@@ -16,7 +16,7 @@
   border: 1px solid transparent;
   margin: auto;
   margin-top: -400px;
-  padding: 21px;
+  padding: 21px 0 0 80px;
   box-shadow: 2px 2px 7px rgba(17, 17, 17, 0.6);
   border-radius: 10px;
 }
@@ -101,4 +101,319 @@ input:focus {
 
 #submit-quote:hover {
   background-color: rgb(185, 7, 7);
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  body {
+    width: 100%;
+  }
+
+  .quotes-form {
+    width: 36%;
+    height: 400px;
+    margin-top: -150px;
+    padding: 15px 0px 0 2px;
+  }
+
+  .form-cancel {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+  }
+
+  .form-label {
+    margin-top: 20px;
+    font-size: 8px;
+  }
+
+  input {
+    padding: 5px;
+    font-size: 8px;
+  }
+
+  #input-author {
+    width: 170px;
+    height: 30px;
+  }
+
+  #input-creator {
+    width: 170px;
+    height: 30px;
+  }
+
+  #quote-input {
+    width: 170px;
+    height: 80px;
+    font-size: 8px;
+    padding: 5px;
+  }
+
+  #date-input {
+    width: 170px;
+    height: 30px;
+    font-size: 1px;
+    color: gray;
+    padding: 6px;
+  }
+
+  #submit-quote {
+    width: 50px;
+    height: 20px;
+    font-size: 8px;
+    margin-top: 10px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    width: 100%;
+  }
+
+  .quotes-form {
+    width: 36%;
+    height: 400px;
+    margin-top: -150px;
+    padding: 15px 0px 0 2px;
+  }
+
+  .form-cancel {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+  }
+
+  .form-label {
+    margin-top: 20px;
+    font-size: 8px;
+  }
+
+  input {
+    padding: 5px;
+    font-size: 8px;
+  }
+
+  #input-author {
+    width: 200px;
+    height: 30px;
+  }
+
+  #input-creator {
+    width: 200px;
+    height: 30px;
+  }
+
+  #quote-input {
+    width: 200px;
+    height: 80px;
+    font-size: 8px;
+    padding: 5px;
+  }
+
+  #date-input {
+    width: 200px;
+    height: 30px;
+    font-size: 1px;
+    color: gray;
+    padding: 6px;
+  }
+
+  #submit-quote {
+    width: 50px;
+    height: 20px;
+    font-size: 8px;
+    margin-top: 10px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    width: 100%;
+  }
+
+  .quotes-form {
+    width: 40%;
+    height: 470px;
+    margin-top: -310px;
+    padding: 21px 0 0 20px;
+  }
+
+  .form-cancel {
+    font-size: 21px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+  }
+
+  .form-label {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  input {
+    padding: 6px;
+    font-size: 11px;
+  }
+
+  #input-author {
+    width: 280px;
+    height: 30px;
+  }
+
+  #input-creator {
+    width: 280px;
+    height: 30px;
+  }
+
+  #quote-input {
+    width: 280px;
+    height: 80px;
+    font-size: 11px;
+    padding: 6px;
+  }
+
+  #date-input {
+    width: 280px;
+    height: 30px;
+    font-size: 1px;
+    color: gray;
+    padding: 6px;
+  }
+
+  #submit-quote {
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    width: 100%;
+  }
+
+  .quotes-form {
+    width: 40%;
+    height: 510px;
+    margin-top: -400px;
+    padding: 21px 0 0 50px;
+  }
+
+  .form-cancel {
+    font-size: 23px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+  }
+
+  .form-label {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  input {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  #input-author {
+    width: 330px;
+    height: 35px;
+  }
+
+  #input-creator {
+    width: 330px;
+    height: 35px;
+  }
+
+  #quote-input {
+    width: 330px;
+    height: 90px;
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  #date-input {
+    width: 330px;
+    height: 35px;
+    font-size: 13px;
+    color: gray;
+    padding: 8px;
+  }
+
+  #submit-quote {
+    width: 120px;
+    height: 35px;
+    margin-top: 15px;
+  }
+}
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    width: 100%;
+  }
+
+  .quotes-form {
+    width: 35%;
+    height: 550px;
+    margin-top: -400px;
+    padding: 21px 0 0 80px;
+  }
+
+  .form-cancel {
+    font-size: 23px;
+    width: 30px;
+    height: 30px;
+    margin-top: -20px;
+  }
+
+  .form-label {
+    margin-top: 20px;
+  }
+
+  input {
+    padding: 10px;
+  }
+
+  #input-author {
+    width: 380px;
+    height: 40px;
+  }
+
+  #input-creator {
+    width: 380px;
+    height: 40px;
+  }
+
+  #quote-input {
+    width: 380px;
+    height: 100px;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  #date-input {
+    width: 380px;
+    height: 40px;
+    font-family: 'Crimson Text', serif;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  #submit-quote {
+    width: 130px;
+    height: 40px;
+    margin-top: 10px;
+  }
 }
