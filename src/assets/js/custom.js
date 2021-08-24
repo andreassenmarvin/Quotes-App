@@ -367,7 +367,8 @@ $(function () {
     $(".quotes-form").trigger("reset");
     $(window).attr("location", "#add-quotes");
   })
-})
-$(window).load(function () {
-  $(".quotes-form").hide();
+
+  $(window).load(function () {
+    $(".quotes-form").hide();
+  })
 })
