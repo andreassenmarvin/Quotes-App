@@ -365,11 +365,9 @@ $(function () {
     $(".author-plus").text(author);
     $(".creator-plus").append(creator);
     $(".quotes-form").trigger("reset");
+    $(window).attr("location", "#add-quotes");
   })
-
-  $(window).load(function () {
-    $(".quotes-form").hide();
-  })
-
 })
-
+$(window).load(function () {
+  $(".quotes-form").hide();
+})
