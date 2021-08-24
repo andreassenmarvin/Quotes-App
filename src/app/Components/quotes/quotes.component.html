@@ -622,8 +622,12 @@
         <p> Ray Bradbury </p>
       </div>
       <div class="quote-icons  card-link">
-        <i class="bi bi-hand-thumbs-up like"></i>
-        <i class="bi bi-hand-thumbs-down unlike"></i>
+        <i class="bi bi-hand-thumbs-up like" (click)='upvote()'></i>
+        <i class="bi bi-hand-thumbs-down unlike" (click)='downvote()'></i>
+      </div>
+      <div class="points" style="display: flex;justify-content: space-around;">
+      <p id="point" *ngIf="quote.score===1||quote.score===-1">{{quote.score}} vote</p>
+      <p id="pointt" *ngIf="quote.score!=1&&quote.score!=-1">{{quote.score}} vote</p>
       </div>
       <div class="quote-btns">
         <button type="button" class="quotes-btn quote more" id="q24-more">More</button>

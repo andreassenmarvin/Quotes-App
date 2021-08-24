@@ -347,8 +347,8 @@ $(function () {
       '<p class="creator-plus">Created by:</p>' +
       '</div>' +
       '<div class="quote-icons card-link">' +
-      '<i class="bi bi-hand-thumbs-up like"></i>' +
-      '<i class="bi bi-hand-thumbs-down unlike"></i>' +
+      '<i class="bi bi-hand-thumbs-up like" onclick="add()">0</i>' +
+      '<i class="bi bi-hand-thumbs-down unlike" onclick="minus()">0</i>' +
       '</div>' +
       '<div class="quote-btns">' +
       '<button type="button" class="quotes-btn more" id=extrasMore">More</button>' +
@@ -367,7 +367,9 @@ $(function () {
     $(".quotes-form").trigger("reset");
   })
 
-  $(window).load(function() {
+  $(window).load(function () {
     $(".quotes-form").hide();
   })
+
 })
+
